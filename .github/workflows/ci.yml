@@ -81,9 +81,6 @@ jobs:
 
       - name: Test
         run: npm test
-        shell: bash
-        env:
-          SHELL: '/bin/bash'
 
       - name: Submit coverage
         uses: coverallsapp/github-action@master
